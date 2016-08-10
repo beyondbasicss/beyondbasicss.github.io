@@ -1,0 +1,28 @@
+<header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="{{ site.url }}" class="site-title"><img src="/images/web_logo.png" alt="{{site.title}}"></a>
+      <nav class="site-nav">
+        {% include navigation.html %}
+      </nav>
+      <div class="clearfix"></div>
+      {% if site.show_social_icons %}
+        {% include social_links.html %}
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup" class="measure">
+          <form action="//digital.us13.list-manage.com/subscribe/post?u=87c779c96cf00e0e878297d28&amp;id=6e64db477f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+            <label for="mce-EMAIL">Subscribe to our mailing list</label>
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_87c779c96cf00e0e878297d28_6e64db477f" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+          </form>
+      </div>
+  <!--End mc_embed_signup-->
+</header>

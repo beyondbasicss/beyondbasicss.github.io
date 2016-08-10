@@ -1,0 +1,63 @@
+---
+# The scss file which include files from _sass/
+---
+@charset "UTF-8";
+
+/*!
+* Pixyll - A simple, beautiful Jekyll theme that's mobile first.
+* @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
+* @link https://github.com/johnotander/pixyll
+* @license MIT
+*/
+
+@import 'variables';
+
+@import 'basscss';
+
+@import 'base';
+
+@import 'links';
+@import 'positions';
+@import 'clearfix';
+@import 'code';
+@import 'forms';
+@import 'typography';
+@import 'header';
+@import 'tables';
+@import 'animations';
+@import 'footer';
+@import 'social-icons';
+@import 'blockquotes';
+@import 'posts';
+@import 'media-queries';
+@import 'gists';
+@import 'measure';
+@import 'pagination';
+
+$blue: #6686D8;
+$green: #4BAB82;
+$red: #DB5F51;
+$yellow: #EED636;
+
+
+//MAILCHIMP STYLES START
+#mc_embed_signup{
+	background: transparent;
+	margin: 20px auto 40px auto;
+	// clear: left
+}
+//MAILCHIMP STYLES END
+
+footer{
+	.logo{
+		display: block;
+		margin: 20px 0;
+		background-image: none;
+	}
+}
+.button-blue{
+	background-color: $blue;
+}
+.giveMeSpace{
+	margin-bottom: 200px;
+}
