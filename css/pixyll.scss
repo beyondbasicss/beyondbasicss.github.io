@@ -45,7 +45,20 @@ $yellow: #EED636;
 	background: transparent;
 	margin: 20px auto 40px auto;
 	// clear: left
+	input{
+		&.button, &.email{
+			display: inline-block !important;
+		}
+		&.button{
+			background: #6686d8;
+			height: 2.25rem;
+			&:hover{
+				background: darken(#6686d8, 10);
+			}
+		}
+	}
 }
+
 //MAILCHIMP STYLES END
 
 footer{
