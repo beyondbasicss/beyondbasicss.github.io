@@ -45,6 +45,9 @@ $yellow: #EED636;
 	background: transparent;
 	margin: 20px auto 40px auto;
 	// clear: left
+	label{
+		color: #bbbbbb;
+	}
 	input{
 		&.button, &.email{
 			display: inline-block !important;
@@ -62,6 +65,7 @@ $yellow: #EED636;
 //MAILCHIMP STYLES END
 
 footer{
+	margin-top: 60px;
 	.logo{
 		display: block;
 		margin: 20px 0;

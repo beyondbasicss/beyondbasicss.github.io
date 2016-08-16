@@ -5,31 +5,41 @@ permalink: /about/
 tags: about
 ---
 
-<h4>Why is CSS important?</h4>
+A blog made to increase your value as a frontend developer. Processes, techniques, best practices and code for creating kick ass websites.
 
-CSS is an essential language in any developer's toolkit. It’s a gateway into a lucrative Frontend career and is indispensable as part of the Full Stack skill set.
+Sharing valuable things I learnt across my career all in one blog.
 
-<h4>So what's missing?</h4>
+Here's what you can expect to learn:
 
-As a self taught developer I am aware of the pitfalls associated with online learning. In particular I found a significant lack CSS tutorials that went beyond the basic level.
+<h4>Kickoff:</h4>
 
-<h4>So where now?</h4>
+Kickstarting projects.<br>
+Designs to Code - working with designers to materialise your concepts.<br>
 
-Introducing Beyond Basicss. This guide will demonstrate techniques that go beyond basic CSS (beyond basicss...ey!). Although this is not geared towards beginners I will cover alot of teaching material so no matter where you feel you stand there will be a place for you to kickstart your CSS mastery.
+<h4>HTML:</h4>
 
-<!-- * [code school](https://www.codeschool.com/)
-* [Codeacademy](https://www.codecademy.com/)
-* [Freecodecamp](http://www.freecodecamp.com/)
-* [Treehouse](https://teamtreehouse.com/)
-* [Sitepoint](http://www.sitepoint.com/)
-* [Stackskills](http://stackskills.com/) -->
+Naming conventions - BEM & SMACSS<br>
+Semantic Markup<br>
 
-This blog will act as an archive of resources that you can use to .......
+<h4>CSS:</h4>
 
-I will also be sending this material out once a week via a newsletter. Get involved and recieve a gentle reminder once a week on new tips, tricks and resources for developing your css.
+Mobile First.<br>
+DRY CSS.<br>
+Pre-processors. - Modularity<br>
+Big no's in CSS.<br>
+CSS the hard parts - my ah-ha moments in CSS.<br>
+Frameworks & Tools (Susy / Sassline).<br>
 
-Later down the line I will be collating all of this material to create video resources for those who wish to take a more step by step approach....it goes a little something like this.....
+<h4>JS:</h4>
 
-Here:
+Seperation of Concerns<br>
+JQuery<br>
 
-This guide gives you downloadable resources/assets and the knowledge to make yourself more valuable as a developer. I’ll be reducing your learning curve by providing clear, actionable steps that solely focus on advancing your core CSS skills and the workflow that surrounds it. Ultimately I want to get you in the position that I am in today but in a fraction of the time and without the dead-ends and frustrated hours. So let’s do this!
+<h4>Launch:</h4>
+Task runners - let your machine do the hard work for you.<br>
+Google insights.<br>
+Google Analytics.<br>
+Assets Optimisation.<br>
+SEO Optimisation.<br>
+
+
