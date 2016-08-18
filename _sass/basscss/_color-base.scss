@@ -1,17 +1,16 @@
 /* Basscss Color Base */
 
 body {
-  color: $dark-gray;
+  color: $mid-gray;
   background-color: white;
 }
 
 a {
-  color: $blue;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: $dark-gray;
 }
 
 pre,
