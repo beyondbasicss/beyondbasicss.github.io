@@ -130,6 +130,33 @@ or add, features.
 
 Happy writing.
 
+<!-- Inserted from elsewhere -->
+
+<blockquote>
+  <p>
+    Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+  </p>
+  <footer><cite title="Antoine de Saint-Exupéry">Antoine de Saint-Exupéry</cite></footer>
+</blockquote>
+
+<!--  Also inserted from elsewhere -->
+
+Jekyll is a tool for transforming your plain text into static websites and 
+blogs. It is simple, static, and blog-aware. Jekyll uses the 
+[Liquid](http://docs.shopify.com/themes/liquid-basics) templating
+language and has builtin [Markdown](http://daringfireball.net/projects/markdown/)
+and [Textile](http://en.wikipedia.org/wiki/Textile_(markup_language)) support.
+
+It also ties in nicely to [Github Pages](https://pages.github.com/).
+
+Learn more about Jekyll on their [website](http://jekyllrb.com/).
+
+## Where is it?
+
+Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it, request a feature, or report a bug.
+
+It's free, and open source ([MIT](http://opensource.org/licenses/MIT)).
+
 ---
 
 [^1]: Important information that may distract from the main text can go in footnotes.

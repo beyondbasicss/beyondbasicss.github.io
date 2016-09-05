@@ -41,9 +41,16 @@
 }
 
 @media screen and (min-width: $viewport-medium) {
-  // html {
-  //   font-size: 18px;
-  // }
+  
+  .posts{
+    width: 65%;
+    float: left;
+  }
+  .aside{
+    float: left;
+    width: 35%;
+  }  
+
 }
 
 @media screen and (min-width: $viewport-large) {

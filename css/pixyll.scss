@@ -3,13 +3,6 @@
 ---
 @charset "UTF-8";
 
-/*!
-* Pixyll - A simple, beautiful Jekyll theme that's mobile first.
-* @author John Otander <johnotander@gmail.com> (http://johnotander.com/)
-* @link https://github.com/johnotander/pixyll
-* @license MIT
-*/
-
 @import 'variables';
 
 @import 'basscss';
@@ -29,7 +22,6 @@
 @import 'social-icons';
 @import 'blockquotes';
 @import 'posts';
-@import 'media-queries';
 @import 'gists';
 @import 'measure';
 @import 'pagination';
@@ -38,6 +30,9 @@ $blue: #6686D8;
 $green: #4BAB82;
 $red: #DB5F51;
 $yellow: #EED636;
+$pink: #FFEBE3;
+
+// CHECK THE PINNK SHIT AS A BACKGROUNFD - USE THIS AS BRAND IDENTITY????? - http://humanbeing.co/
 
 
 //MAILCHIMP STYLES START
@@ -69,13 +64,40 @@ $yellow: #EED636;
 *, *:after, *:before{
 	box-sizing: border-box;
 }
+em.basicss-underscore{
+	border-bottom: 1px solid #666;
+}
+.home{
+	position: relative;
+	&:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
 .site-header{
 	position: fixed;
 	width: 100%;
 	background: white;
+	z-index: 9;
 }
 .posts, .post{
-	margin-top: 60px;
+	margin-top: 2rem;
+}
+.posts{
+	margin-bottom: 50px;
+}
+.post{
+	width: 100%;
+	&:first-child{
+		margin-top: 0px;
+	}
+}
+.pagination{
+	clear: both;
+}
+.aside{
+	padding-top: 4rem;
 }
 h1{
 	color: $dark-gray;
@@ -117,3 +139,5 @@ footer{
 		margin-right: 1%;
 	}
 }
+
+@import 'media-queries';
