@@ -31,6 +31,7 @@ $green: #4BAB82;
 $red: #DB5F51;
 $yellow: #EED636;
 $pink: #FFEBE3;
+$light-gray: #bbbbbb;
 
 // CHECK THE PINNK SHIT AS A BACKGROUNFD - USE THIS AS BRAND IDENTITY????? - http://humanbeing.co/
 
@@ -41,7 +42,7 @@ $pink: #FFEBE3;
 	margin: 20px auto 40px auto;
 	// clear: left
 	label{
-		color: #bbbbbb;
+		color: $light-gray;
 	}
 	input{
 		&.button, &.email{
@@ -97,7 +98,20 @@ em.basicss-underscore{
 	clear: both;
 }
 .aside{
-	padding-top: 4rem;
+	margin-top: 4rem;
+	padding: 30px;
+	background: $dark-gray;
+	border-radius: 5px;
+	h2{
+		margin: 0 0 20px 0;
+		color: $red;
+	}
+	p{
+		color: $light-gray;
+	}
+	input{
+		width: 100% !important;
+	}
 }
 h1{
 	color: $dark-gray;

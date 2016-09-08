@@ -9,7 +9,7 @@ layout: default
       {% for post in paginator.posts %}
         <div class="post py3">
           <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h2 class="post-title">{{ post.title }}</h2></a>
           <p class="post-summary">
             {% if post.summary %}
               {{ post.summary }}
@@ -22,6 +22,8 @@ layout: default
     </div>
     <div class="aside">
       <!-- Begin MailChimp Signup Form -->
+      <h2>10x your value as a front-end developer with our free tutorial &amp; actionable weekly insights.</h2>
+
       <div id="mc_embed_signup" class="measure">
         <form action="//beyondbasicss.us14.list-manage.com/subscribe/post?u=01f360ef6c10e9f0a7dca1697&amp;id=88d54e78eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
@@ -38,6 +40,9 @@ layout: default
         </form>
       </div>
       <!--End mc_embed_signup-->
+
+
+      <p>Sign up for weekly front-end tutorials on HTML5, CSS, responsive design, accessibility and performance. Plus get our free guide and the accompanying files that will 10x your abilities and kickstart your path to front-end mastery.</p>
     </div>
 
     {% include pagination.html %}
