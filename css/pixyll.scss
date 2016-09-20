@@ -82,15 +82,13 @@ em.basicss-underscore{
 	background: white;
 	z-index: 9;
 }
-.posts, .post{
-	margin-top: 2rem;
-}
 .posts{
 	margin-bottom: 50px;
 }
 .post{
+	margin-top: 4rem;
 	width: 100%;
-	&:first-child{
+	.post{
 		margin-top: 0px;
 	}
 }

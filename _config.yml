@@ -62,7 +62,7 @@ share_digg: false
 share_tumblr: false
 share_reddit: false
 share_stumbleupon: false
-share_hackernews: true
+share_hackernews: false
 
 text:
   pagination:
@@ -102,7 +102,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
+paginate:     6
 sass:
   compressed: true
 gems:

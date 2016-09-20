@@ -10,21 +10,27 @@ $(function() {
         postsOffset = $posts.offset(),
         postsBottom = postsOffset.top + $posts.height(),
 
-        topPadding = 15;
+        topMargin = 64;
 
     if($window.width() > 768){
         $window.scroll(function() {
-            if ($window.scrollTop() > asideOffset.top && postsBottom > (asideBottom + $window.scrollTop())) {
+
+            if ($window.scrollTop() > topMargin && postsBottom > (asideBottom + $window.scrollTop())) {
+
                 $aside.stop().animate({
-                    marginTop: $window.scrollTop() - asideOffset.top + topPadding
+                    marginTop: $window.scrollTop()
                 }, 0);
+
             } else if (postsBottom <= (asideBottom + $window.scrollTop())) {
-                marginTop: asideOffset.top + topPadding,
-                console.log(asideOffset.top + topPadding);
+
+                marginTop: asideOffset.top
+
             } else {
+
                 $aside.stop().animate({
-                    marginTop: 0
+                    marginTop: topMargin
                 }, 0);
+
             }
         });
     };
